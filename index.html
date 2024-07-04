@@ -5,7 +5,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
         <meta http-equiv="X-UA-Compatible" content="ie=edge" />
         <script src="https://kit.fontawesome.com/1a11e246e6.js" crossorigin="anonymous"></script>
+        <link rel="icon" href="svg/favicon.svg">
         <link rel="preconnect" href="https://fonts.googleapis.com">
+        
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap" rel="stylesheet">
         <link rel="stylesheet preload" as="style" href="css/preload.min.css" />
@@ -14,13 +16,35 @@
         <link rel="stylesheet" href="css/about.css">
         <title>الصفحه الرئيسية</title>
         <link rel="stylesheet" href="css/index2.css" />
+        <style>
+            a.btn{
+                color:white;
+            }
+            .pattern{
+                position: relative;
+            }
+            .pattern::after{
+                content: "";
+                width: 100%;
+                height: 100%;
+                display: block;
+                position: absolute;
+                top: 0px;
+                opacity: 0.3;
+                left: 0;
+                background-image: url(img/pattern.png);
+                background-position: left bottom;
+                background-size: contain;
+                z-index: -1;
+                background-repeat: no-repeat;
+            }
+        </style>
     </head>
-    <body>
+    <body >
         <header class="header" data-page="home2" data-page-parent="home">
             <div class="container d-flex">
                 <a class="brand" href="index.html">
-                    <img class="brand_logo" src="svg/logo.svg" alt="Axial Construct" />
-                    <span class="brand_name"> Axial <span class="highlight">Construct</span> </span>
+                    <img class="brand_logo" src="img/logo.png" />
                 </a>
                 <nav class="header_nav collapse" id="headerMenu">
                     <ul class="header_nav-list">
@@ -62,7 +86,7 @@
             </div>
         </header>
         <!-- homepage content start  -->
-        <main>
+        <main > 
             <section class="hero primary-bg">
                 <span class="hero_overlay"></span>
                 <div class="container container_regular">
@@ -73,99 +97,99 @@
                     <div class="hero_main">
                         <div class="hero_slider--main swiper">
                             <div class="swiper-wrapper">
-                                <div class="service swiper-slide" data-bg="img/placeholder.jpg">
+                                <div class="service swiper-slide" data-bg="img/slider/1.webp">
                                     <h2 class="title h1">البنية التحتية</h2>
                                     <p class="text">
                                         تعـد شـركه تـو بـى كيـو واحـدة مـن الـوكلاء والموزعيـن لكبـري المصانـع والمنتجـات الخاصـة بالبنيـة
 التحتيــة والتشــطيبات لتتناســب مــع احتياجــات المشــروعات الكبــري
                                     </p>
-                                    <a class="btn" href="single-service.html">المزيد من التفاصيل</a>
+                                    <a class="btn" href="infrastructure.html">المزيد من التفاصيل</a>
                                 </div>
-                                <div class="service swiper-slide" data-bg="img/placeholder.jpg">
+                                <div class="service swiper-slide" data-bg="img/slider/2.webp">
                                     <h2 class="title h1">مستلزمات الري والزراعة</h2>
                                     <p class="text">
                                         توفـر الشـركة كل مـا يحتاجـه مجـال الزراعـة والـري وتعـد الشـركة مـن أكبـر الـوكلاء والموزعيـن لكبـرى
                                         المـاركات المحليـة والعالميـة
                                     </p>
-                                    <a class="btn" href="single-service.html">المزيد من التفاصيل</a>
+                                    <a class="btn" href="agriculture.html">المزيد من التفاصيل</a>
                                 </div>
-                                <div class="service swiper-slide" data-bg="img/placeholder.jpg">
+                                <div class="service swiper-slide" data-bg="img/slider/3.webp">
                                     <h2 class="title h1">مستلزمات حمامات السباحة</h2>
                                     <p class="text">
                                         توفــر الشــركة مســتلزمات حمامــات الســباحة مــن مضخــات ووصلات وموزيــك، عــزل ولينــر وجميــع مســتلزمات حمامــات الســباحة
                                     </p>
-                                    <a class="btn" href="single-service.html">المزيد من التفاصيل</a>
+                                    <a class="btn" href="swimming-pools-supplies.html">المزيد من التفاصيل</a>
                                 </div>
-                                <div class="service swiper-slide" data-bg="img/placeholder.jpg">
+                                <div class="service swiper-slide" data-bg="img/slider/4.webp">
                                     <h2 class="title h1">الاكسسوارات والدهانات والديكورات</h2>
                                     <p class="text">
                                         توفـر الشـركة جميـع الاشـكال والمـوديلات الخاصـة بالاكسسـوارات والديكـورات
                                     </p>
-                                    <a class="btn" href="single-service.html">المزيد من التفاصيل</a>
+                                    <a class="btn" href="paints.html">المزيد من التفاصيل</a>
                                 </div>
-                                <div class="service swiper-slide" data-bg="img/placeholder.jpg">
+                                <div class="service swiper-slide" data-bg="img/slider/5.webp">
                                     <h2 class="title h1">العدد اليدوية والكهربائية</h2>
                                     <p class="text">
                                         توفـر الشـركة افضـل المـاركات مـن العـدد اليدويـة والكهربائيـة
                                     </p>
-                                    <a class="btn" href="single-service.html">المزيد من التفاصيل</a>
+                                    <a class="btn" href="power&hand tools.html">المزيد من التفاصيل</a>
                                 </div>
-                                <div class="service swiper-slide" data-bg="img/placeholder.jpg">
+                                <div class="service swiper-slide" data-bg="img/slider/6.webp">
                                     <h2 class="title h1">مستلزمات السلامة المهنية ومكافحة الحرائق</h2>
                                     <p class="text">
                                         توفـر الشـركة جميـع مسـتلزمات الأمـان والسلامـة المهنيـة مـن احذيـة وملابس ومقاومـات الأحماض
 والقلويــات ومهمــات مقاومــة الحريــق 
                                     </p>
-                                    <a class="btn" href="single-service.html">المزيد من التفاصيل</a>
+                                    <a class="btn" href="safety-tools.html">المزيد من التفاصيل</a>
                                 </div>
-                                <div class="service swiper-slide" data-bg="img/placeholder.jpg">
+                                <div class="service swiper-slide" data-bg="img/slider/7.webp">
                                     <h2 class="title h1">مستلزمات الأعمال الكهربائية</h2>
                                     <p class="text">
                                         توفــر الشــركة مســتلزمات قطــاع اعمــال الكهربــاء مــن تاســيس مــن خراطيــم وعلــب واسلاك وكذلــك التشــطيبات توفــر الشــركة جميــع المــاركات
                                     </p>
-                                    <a class="btn" href="single-service.html">المزيد من التفاصيل</a>
+                                    <a class="btn" href="electrical-tools.html">المزيد من التفاصيل</a>
                                 </div>
-                                <div class="service swiper-slide" data-bg="img/placeholder.jpg">
+                                <div class="service swiper-slide" data-bg="img/slider/8.webp">
                                     <h2 class="title h1">تجهيزات المواقع</h2>
                                     <p class="text">
                                         نظـرا لكثـره المشـروعات واحتيـاج المشـروعات لتجهيـزات بجـوده عاليـة قامـت الشـركة بالعمـل علـى توفير جميع تجهيزات المشـروعات من كرفانات وكونتنرات وتاندات وغيرها من تجهيزات المشـروعات
                                     </p>
-                                    <a class="btn" href="single-service.html">المزيد من التفاصيل</a>
+                                    <a class="btn" href="mobilization.html">المزيد من التفاصيل</a>
                                 </div>
-                                <div class="service swiper-slide" data-bg="img/placeholder.jpg">
+                                <div class="service swiper-slide" data-bg="img/slider/9.webp">
                                     <h2 class="title h1">قطاع مستلزمات محطات المياة</h2>
                                     <p class="text">
                                         توفر الشركة كل مايلزم محطات المياه من قطع ومحابس وغرف وخلافة
                                     </p>
-                                    <a class="btn" href="single-service.html">المزيد من التفاصيل</a>
+                                    <a class="btn" href="watter-stations.html">المزيد من التفاصيل</a>
                                 </div>
-                                <div class="service swiper-slide" data-bg="img/placeholder.jpg">
+                                <div class="service swiper-slide" data-bg="img/slider/10.webp">
                                     <h2 class="title h1">قطاع ال HVAC ومستلزمات التكييف المركزي</h2>
                                     <p class="text">
                                         توفــر الشــركة كل مايلــزم أعمــال التكييفــات المركزيــة مــن مواســير نحــاس ولوازمهــا مــن قطــع ومحابــس ومــراوح تهويــة وفاكيــم وخلافــة
                                     </p>
-                                    <a class="btn" href="single-service.html">المزيد من التفاصيل</a>
+                                    <a class="btn" href="central-air-conditioning-supplies.html">المزيد من التفاصيل</a>
                                 </div>
-                                <div class="service swiper-slide" data-bg="img/placeholder.jpg">
+                                <div class="service swiper-slide" data-bg="img/slider/11.webp">
                                     <h2 class="title h1">مستلزمات الورش والحركة وقطع غيار السيارات</h2>
                                     <p class="text">
                                         توفــر الشــركه جميــع الاجهــزه الخاصــه بكشــف اعطــال الســيارات وشــحن تكييــف الســيارات والاونــاش الخاصـه بمراكـز خدمـه السـيارات والعـدد الخاصـه بهـا       
                                      </p>
-                                    <a class="btn" href="single-service.html">المزيد من التفاصيل</a>
+                                    <a class="btn" href="autoparts.html">المزيد من التفاصيل</a>
                                 </div>
                             </div>
                         </div>
                         <div class="hero_slider-nav swiper-pagination"></div>
                     </div>
                 </div>
-                <div class="container container_thumbs" style="margin-inline-start;">
+                <div class="container container_thumbs" >
                     <div class="hero_slider--thumbs swiper">
                         <div class="swiper-wrapper">
                             <div class="thumb swiper-slide">
                                 <div class="media">
                                     <picture>
-                                        <source data-srcset="img/placeholder.jpg" srcset="img/placeholder.jpg" type="image/webp" />
-                                        <img class="lazy" data-src="img/placeholder.jpg" src="img/placeholder.jpg" alt="thumb" />
+                                        <source data-srcset="img/slider/1.webp" srcset="img/slider/1.webp" type="image/webp" />
+                                        <img class="lazy" data-src="img/slider/1.webp" src="img/slider/1.webp" alt="thumb" />
                                     </picture>
                                 </div>
                                 <h4 class="title">البنية التحتية</h4>
@@ -173,8 +197,8 @@
                             <div class="thumb swiper-slide">
                                 <div class="media">
                                     <picture>
-                                        <source data-srcset="img/placeholder.jpg" srcset="img/placeholder.jpg" type="image/webp" />
-                                        <img class="lazy" data-src="img/placeholder.jpg" src="img/placeholder.jpg" alt="thumb" />
+                                        <source data-srcset="img/slider/2.webp" srcset="img/slider/2.webp" type="image/webp" />
+                                        <img class="lazy" data-src="img/slider/2.webp" src="img/slider/2.webp" alt="thumb" />
                                     </picture>
                                 </div>
                                 <h4 class="title">مستلزمات الري والزراعة</h4>
@@ -182,8 +206,8 @@
                             <div class="thumb swiper-slide">
                                 <div class="media">
                                     <picture>
-                                        <source data-srcset="img/placeholder.jpg" srcset="img/placeholder.jpg" type="image/webp" />
-                                        <img class="lazy" data-src="img/placeholder.jpg" src="img/placeholder.jpg" alt="thumb" />
+                                        <source data-srcset="img/slider/3.webp" srcset="img/slider/3.webp" type="image/webp" />
+                                        <img class="lazy" data-src="img/slider/3.webp" src="img/slider/3.webp" alt="thumb" />
                                     </picture>
                                 </div>
                                 <h4 class="title">مستلزمات حمامات السباحة</h4>
@@ -191,8 +215,8 @@
                             <div class="thumb swiper-slide">
                                 <div class="media">
                                     <picture>
-                                        <source data-srcset="img/placeholder.jpg" srcset="img/placeholder.jpg" type="image/webp" />
-                                        <img class="lazy" data-src="img/placeholder.jpg" src="img/placeholder.jpg" alt="thumb" />
+                                        <source data-srcset="img/slider/4.webp" srcset="img/slider/4.webp" type="image/webp" />
+                                        <img class="lazy" data-src="img/slider/4.webp" src="img/slider/4.webp" alt="thumb" />
                                     </picture>
                                 </div>
                                 <h4 class="title">الاكسسوارات والدهانات والديكورات</h4>
@@ -200,8 +224,8 @@
                             <div class="thumb swiper-slide">
                                 <div class="media">
                                     <picture>
-                                        <source data-srcset="img/placeholder.jpg" srcset="img/placeholder.jpg" type="image/webp" />
-                                        <img class="lazy" data-src="img/placeholder.jpg" src="img/placeholder.jpg" alt="thumb" />
+                                        <source data-srcset="img/slider/5.webp" srcset="img/slider/5.webp" type="image/webp" />
+                                        <img class="lazy" data-src="img/slider/5.webp" src="img/slider/5.webp" alt="thumb" />
                                     </picture>
                                 </div>
                                 <h4 class="title">العدد اليدوية والكهربائية</h4>
@@ -209,8 +233,8 @@
                             <div class="thumb swiper-slide">
                                 <div class="media">
                                     <picture>
-                                        <source data-srcset="img/placeholder.jpg" srcset="img/placeholder.jpg" type="image/webp" />
-                                        <img class="lazy" data-src="img/placeholder.jpg" src="img/placeholder.jpg" alt="thumb" />
+                                        <source data-srcset="img/slider/6.webp" srcset="img/slider/6.webp" type="image/webp" />
+                                        <img class="lazy" data-src="img/slider/6.webp" src="img/slider/6.webp" alt="thumb" />
                                     </picture>
                                 </div>
                                 <h4 class="title">مستلزمات السلامة المهنية ومكافحة الحرائق</h4>
@@ -218,8 +242,8 @@
                             <div class="thumb swiper-slide">
                                 <div class="media">
                                     <picture>
-                                        <source data-srcset="img/placeholder.jpg" srcset="img/placeholder.jpg" type="image/webp" />
-                                        <img class="lazy" data-src="img/placeholder.jpg" src="img/placeholder.jpg" alt="thumb" />
+                                        <source data-srcset="img/slider/7.webp" srcset="img/slider/7.webp" type="image/webp" />
+                                        <img class="lazy" data-src="img/slider/7.webp" src="img/slider/7.webp" alt="thumb" />
                                     </picture>
                                 </div>
                                 <h4 class="title">مستلزمات الأعمال الكهربائية</h4>
@@ -227,8 +251,8 @@
                             <div class="thumb swiper-slide">
                                 <div class="media">
                                     <picture>
-                                        <source data-srcset="img/placeholder.jpg" srcset="img/placeholder.jpg" type="image/webp" />
-                                        <img class="lazy" data-src="img/placeholder.jpg" src="img/placeholder.jpg" alt="thumb" />
+                                        <source data-srcset="img/slider/8.webp" srcset="img/slider/8.webp" type="image/webp" />
+                                        <img class="lazy" data-src="img/slider/8.webp" src="img/slider/8.webp" alt="thumb" />
                                     </picture>
                                 </div>
                                 <h4 class="title">تجهيزات المواقع</h4>
@@ -236,8 +260,8 @@
                             <div class="thumb swiper-slide">
                                 <div class="media">
                                     <picture>
-                                        <source data-srcset="img/placeholder.jpg" srcset="img/placeholder.jpg" type="image/webp" />
-                                        <img class="lazy" data-src="img/placeholder.jpg" src="img/placeholder.jpg" alt="thumb" />
+                                        <source data-srcset="img/slider/9.webp" srcset="img/slider/9.webp" type="image/webp" />
+                                        <img class="lazy" data-src="img/slider/9.webp" src="img/slider/9.webp" alt="thumb" />
                                     </picture>
                                 </div>
                                 <h4 class="title">قطاع مستلزمات محطات المياة</h4>
@@ -245,8 +269,8 @@
                             <div class="thumb swiper-slide">
                                 <div class="media">
                                     <picture>
-                                        <source data-srcset="img/placeholder.jpg" srcset="img/placeholder.jpg" type="image/webp" />
-                                        <img class="lazy" data-src="img/placeholder.jpg" src="img/placeholder.jpg" alt="thumb" />
+                                        <source data-srcset="img/slider/10.webp" srcset="img/slider/10.webp" type="image/webp" />
+                                        <img class="lazy" data-src="img/slider/10.webp" src="img/slider/10.webp" alt="thumb" />
                                     </picture>
                                 </div>
                                 <h4 class="title">قطاع ال HVAC ومستلزمات التكييف المركزي</h4>
@@ -254,8 +278,8 @@
                             <div class="thumb swiper-slide">
                                 <div class="media">
                                     <picture>
-                                        <source data-srcset="img/placeholder.jpg" srcset="img/placeholder.jpg" type="image/webp" />
-                                        <img class="lazy" data-src="img/placeholder.jpg" src="img/placeholder.jpg" alt="thumb" />
+                                        <source data-srcset="img/slider/11.webp" srcset="img/slider/11.webp" type="image/webp" />
+                                        <img class="lazy" data-src="img/slider/11.webp" src="img/slider/11.webp" alt="thumb" />
                                     </picture>
                                 </div>
                                 <h4 class="title">مستلزمات الورش والحركة وقطع غيار السيارات</h4>
@@ -264,7 +288,7 @@
                     </div>
                 </div>
             </section>
-            <section class="about nopb">
+            <section class="about nopb pattern" >
                 <div class="container">
                     <div class="main">
                         <div class="section_header">
@@ -280,13 +304,13 @@
                         </div>
                         
                         <div class="wrapper" data-aos="fade-up">
-                            <a class="btn" href="#">تعرف علينا</a>
+                            <a class="btn" href="about.html">تعرف علينا</a>
                         </div>
                     </div>
                     <div class="media" data-aos="zoom-in" data-aos-duration="700">
                         <picture>
-                            <source data-srcset="img/placeholder.jpg" srcset="img/placeholder.jpg" type="image/webp" />
-                            <img class="lazy" data-src="img/placeholder.jpg" src="img/placeholder.jpg" alt="About Us" />
+                            <source data-srcset="img/about-us.jpg" srcset="img/about-us.jpg" type="image/webp" />
+                            <img class="lazy" data-src="img/about-us.jpg" src="img/about-us.jpg" alt="About Us" />
                         </picture>
                     </div>
                 </div>
@@ -301,8 +325,8 @@
                            
                             <div class="media" data-aos="zoom-in" data-aos-duration="600">
                                 <picture>
-                                    <source data-srcset="img/placeholder.jpg" srcset="img/placeholder.jpg" type="image/webp" />
-                                    <img class="lazy" data-src="img/placeholder.jpg" src="img/placeholder.jpg" alt="media" />
+                                    <source data-srcset="img/why-us.jpg" srcset="img/why-us.jpg" type="image/webp" />
+                                    <img class="lazy" data-src="img/why-us.jpg" src="img/why-us.jpg" alt="media" />
                                 </picture>
                             </div>
                         </div>
@@ -368,7 +392,7 @@
                                 </div>
                                 <div class="process_steps-step_wrapper">
                                     <h4 class="title">الجـــــــــــودة</h4>
-                                    <p class="description">نسـعى دائ ًمـا لتحقيـق أعلـى مسـتويات الجـودة فـي جميـع منتجاتنـا وخدماتنـا</p>
+                                    <p class="description">نسـعى دائمـا لتحقيـق أعلـى مسـتويات الجـودة فـي جميـع منتجاتنـا وخدماتنـا</p>
                                 </div>
                             </li>
                             <li class="process_steps-step progress-step">
@@ -470,8 +494,7 @@
                 <div class="footer_main">
                     <div class="footer_main-block">
                         <a class="brand" href="index.html">
-                            <img class="brand_logo" src="svg/logo.svg" alt="Axial Construct" />
-                            <span class="brand_name"> Axial <span class="highlight">Construct</span> </span>
+                            <img class="brand_logo" src="img/logo.png" alt="Axial Construct" />
                         </a>
                         <p class="footer_main-block_subtitle footer_main-block_subtitle--brand">
                             Libero volutpat sed cras ornare arcu dui vivamus. Ac tortor dignissim convallis aenean et tortor at risus
